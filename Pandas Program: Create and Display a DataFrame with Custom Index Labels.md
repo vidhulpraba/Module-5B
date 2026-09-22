@@ -17,8 +17,49 @@ To create and display a **DataFrame** using the **Pandas** library in Python fro
 ---
 
 ## 💻 Program
-Add code here
+```
+import pandas as pd
+
+data = {
+    'Name': ['Abi', 'Ravi', 'Kavi'],
+    'Age': [18, 19, 18]
+}
+
+df = pd.DataFrame(data, index=['A', 'B', 'C'])
+
+print(df)
+```
 
 ## Output
-
+  Name  Age
+A  Abi   18
+B  Ravi  19
+C  Kavi  18
 ## Result
+### Python Program
+
+```python
+import pandas as pd
+
+data = {
+    'Name': ['Abi', 'Ravi', 'Kavi'],
+    'Age': [18, 19, 18]
+}
+
+df = pd.DataFrame(data, index=['A', 'B', 'C'])
+
+print(df)
+```
+
+### Output
+
+```text
+  Name  Age
+A  Abi   18
+B  Ravi  19
+C  Kavi  18
+```
+
+**Result:**
+Thus, the Pandas program to create and display a DataFrame from a dictionary with specific index labels was successfully executed.
+
